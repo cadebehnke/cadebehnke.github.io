@@ -2,6 +2,7 @@
 body {
     background: papayawhip;
     color: saddlebrown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /* Navigation */
 
@@ -10,7 +11,11 @@ body {
 /* Typography */
 h1 {
     color: maroon;
+    font:
 }
 h2 {
+    color: maroon;
+}
+h3 {
     color: maroon;
 }
