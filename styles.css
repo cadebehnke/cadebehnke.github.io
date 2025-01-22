@@ -9,6 +9,13 @@ a {
     text-decoration: none;
     color: #a64d4d;
 }
+
+a:hover {
+    background: #e6cccc;
+}
+
+/* Images */
+
 /* Tables */
 
 /* Typography */
