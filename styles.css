@@ -21,7 +21,8 @@ a:hover {
 /* Typography */
 h1 {
     color: maroon;
-    font: kamal;
+    font-size: x-large;
+    font-family: cursive;
 }
 h2 {
     color: maroon;
