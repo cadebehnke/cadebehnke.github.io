@@ -3,6 +3,7 @@
 body {
     background: img src="images/grassfieldbackground";
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkgoldenrod;
 }
 
 #content {
@@ -14,7 +15,16 @@ body {
 }
 
 #nav {
+    text-decoration: none;
     color: darkgoldenrod;
-    
 }
 /*Images*/
+
+#images {
+
+}
+
+/*Tables*/
+#table {
+    
+}
