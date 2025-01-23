@@ -1,5 +1,8 @@
 /*Structure*/
-
+#title{
+    font-size: larger;
+    color:darkgoldenrod
+}
 body {
     background: img src="images/grassfieldbackground.jpg";
     font-family: Georgia, 'Times New Roman', Times, serif;
