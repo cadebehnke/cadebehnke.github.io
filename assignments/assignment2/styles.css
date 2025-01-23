@@ -1,9 +1,8 @@
 /*Structure*/
 
 body {
-    background: img src="images/grassfieldbackground";
+    background: img src="images/grassfieldbackground.jpg";
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: darkgoldenrod;
 }
 
 #content {
