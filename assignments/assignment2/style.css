@@ -1,3 +1,13 @@
+/*Structure*/
+
 body {
     background: moccasin;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+#content {
+    background: moccasin;
+    width: 70%;
+}
+
+/*Images*/
