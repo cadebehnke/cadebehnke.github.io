@@ -1,13 +1,16 @@
 /*Structure*/
 
 body {
-    background: moccasin;
+    background: img src="images/grassfieldbackground";
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #content {
     background: moccasin;
     width: 70%;
+    margin: auto;
+    padding: 0 5px;
+    border-radius: 5px;
 }
 
 #nav {
