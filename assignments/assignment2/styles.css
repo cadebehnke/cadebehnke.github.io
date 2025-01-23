@@ -1,10 +1,12 @@
 /*Structure*/
-#title{
+#title {
     font-size: larger;
     color:darkgoldenrod
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 body {
-    background: img src="images/grassfieldbackground.jpg";
+    background-image: url="images/grassfieldbackground.jpg";
+    background-size: cover;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -12,7 +14,7 @@ body {
     background: moccasin;
     width: 70%;
     margin: auto;
-    padding: 0 5px;
+    padding: 15px;
     border-radius: 5px;
 }
 
