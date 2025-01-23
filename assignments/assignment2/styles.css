@@ -21,10 +21,14 @@ body {
 /*Images*/
 
 #images {
-
+    padding: 5px;
+    border: 3px solid black
+    border-radius: 10px;
 }
 
 /*Tables*/
-#table {
-    
+#table table{
+    width: 100%;
+    border-collapse: collapse;
+    background: burlywood;
 }
