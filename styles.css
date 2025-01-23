@@ -4,17 +4,15 @@ body {
     color: saddlebrown;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 /* Navigation */
-#assignmnet-nav-list{
-    background: yellow;
-}
 
 a {
     text-decoration: none;
     color: #a64d4d;
 }
 
-a:hover {
+#assignment-nav-list a:hover {
     background: #e6cccc;
 }
 
@@ -23,12 +21,13 @@ a:hover {
 /* Tables */
 
 /* Typography */
-h1 {
+#name {
     color: maroon;
-    font-size: x-large;
+    font-size: xx-large;
     font-family: cursive;
+    font-weight: bold;
 }
-h2 {
+#course-name {
     color: maroon;
 }
 h3 {
