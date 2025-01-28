@@ -3,6 +3,7 @@ body {
     background: papayawhip;
     color: saddlebrown;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 40px;
 }
 
 /* Navigation */
@@ -12,8 +13,9 @@ a {
     color: #a64d4d;
 }
 
-#assignment-nav-list a:hover {
+a:hover {
     background: #e6cccc;
+    padding: 5px;
 }
 
 /* Images */
@@ -21,15 +23,46 @@ a {
 /* Tables */
 
 /* Typography */
-#name {
+#title-header {
     color: maroon;
-    font-size: 80px;
-    font-family: cursive;
+    font-size: 15px;
     font-weight: bold;
+    font-family: cursive;
+    padding: 0px;
 }
-#course-name {
+
+h2 {
+    text-align: center;
+    font-size: 45px;
+    color: maroon;   
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
     color: maroon;
+}
+
+.col1of3 {
+    color: maroon;
+    text-align: center;
+    background: wheat;
+    margin: 2px;
+    padding: 15px;
+    border-radius: 20px;
 }
 h3 {
     color: maroon;
 }
+
+/*Larger Resolutions*/
+@media (min-width: 900px) {
+    .flex-container {
+        display: flex;
+        gap: 20px;
+    }
+    .col1of3{
+        flex: 1;
+    }
+}
+
