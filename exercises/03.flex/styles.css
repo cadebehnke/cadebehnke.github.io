@@ -18,6 +18,21 @@ header, footer {
     color:white;
 }
 
+.idea {
+    padding: 5px;
+}
+
+.idea{
+    background: grey;
+    
+}
+
+.idea-img {
+    padding:5px;
+    text-align: center;
+}
+
+
 main {
     padding:5px;
 }
@@ -54,5 +69,12 @@ footer p {
 
 /* Larger screens */
 @media only screen and (min-width: 768px) { 
-    
+    .columns {
+        display:flex;
+    }
+
+    #main-nav li {
+        flex:1;
+        border: 1px solid white;
+    }
 }
