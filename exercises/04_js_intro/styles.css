@@ -69,7 +69,15 @@ main {
 }
 
 .sad {
-    color:purple;
+    color:lightblue;
+}
+
+.happy {
+    color:pink
+}
+
+.hidden {
+    display:none;     
 }
 
 /* Animations */

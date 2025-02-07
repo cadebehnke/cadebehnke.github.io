@@ -15,3 +15,33 @@ document.getElementById("btn-color").onclick = () => {
     messageP.classList.toggle("sad");
 };
 
+document.getElementById("btn-happy").onclick = () => {
+    const moodP = document.getElementById("mood-result");
+    moodP.classList.remove("hidden");
+    moodP.classList.remove("sad");
+    moodP.classList.add("happy");
+    moodP.innerHTML = "Good Times";
+};
+
+document.getElementById("btn-sad").onclick = () => {
+    const moodP = document.getElementById("mood-result");
+    moodP.classList.remove("hidden");
+    moodP.classList.remove("happy");
+    moodP.classList.add("sad");
+    moodP.innerHTML = "Bad Times";
+};
+
+document.getElementById("btn-clear").onclick = () => {
+    const moodP = document.getElementById("mood-result");
+    moodP.classList.add("hidden");
+};
+
+//keydown
+document.getElementById("txt-emotion").onkeyup = (event) => {
+    // const emotion = document.getElementById("txt-emotion").value;
+    document.getElementById("emotional-message").innerHTML = 
+    "You are feeling " + event.currentTarget.value;
+    //const emotion = event.currentTarget.value;
+    //console.log(emotion);
+};
+
