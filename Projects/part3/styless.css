@@ -1,0 +1,83 @@
+/* Define CSS Variables for colors */
+:root {
+    --background-color: #f8f8f8;
+    --text-color: #000;
+    --header-footer-bg: #222;
+    --promo-bg: #333;
+    --link-color: #555;
+    --border-color: #ddd;
+}
+
+body {
+    background: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header, footer {
+    background: var(--header-footer-bg);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+#promo-bar {
+    background: var(--promo-bg);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: var(--link-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#carousel img {
+    width: 100%;
+    display: block;
+    border: 1px solid var(--border-color);
+}
+
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project img {
+    width: 100%;
+    max-width: 200px;
+    border: 1px solid var(--border-color);
+    margin: 10px;
+}
+
+#description {
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    margin-top: 20px;
+}
