@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Assignment 6</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav>
+        <div id="menu-toggle">☰ Menu <span id="arrow">▼</span></div>
+        <ul id="menu">
+            <li onclick="showSection('traveling')">Exercise 1: Traveling</li>
+            <li onclick="showSection('picture-chooser')">Exercise 2: Picture Chooser</li>
+        </ul>
+    </nav>
+
+    <div id="container">
+        <header>
+            <h1>Assignment 6</h1>
+            <h2>JavaScript: Conditionals</h2>
+        </header>
+
+        <main id="traveling-section">
+            <section class="column">
+                <h3>Travelling</h3>
+                <p>Enter Your Mode of Transportation</p>
+                <div id="hello-box">
+                    <input type="text" id="transport-input" placeholder="Enter mode of transport">
+                </div>
+                <img id="image-changer" src="" style="display: none;">
+            </section>
+        </main>
+
+        <main id="picture-chooser-section" style="display: none;">
+            <section class="column">
+                <h3>Color My Heart</h3>
+                <div class="flex-container">
+                    <section class="col1of3" onclick="changeHeartColor('red')">Red</section>
+                    <section class="col1of3" onclick="changeHeartColor('green')">Green</section>
+                    <section class="col1of3" onclick="changeHeartColor('blue')">Blue</section>
+                </div>
+                <div id="heart" style="color: white;">&hearts;</div>
+            </section>
+        </main>
+
+        <footer>
+            <p>@CadeBehnke</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
