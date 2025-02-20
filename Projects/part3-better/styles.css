@@ -1,10 +1,22 @@
+:root {
+    --background-color: #d2a679;
+    --box-background: #f5e1c8;
+    --primary-text: #5a3e2b;
+    --secondary-text: #8b5e3b;
+    --accent-color: #3b2b1a;
+    --border-color: #a67c52;
+    --hover-color: #c49a6c;
+}
+
 body, html {
     margin: 0;
     padding: 0;
+    background-color: var(--background-color);
+    color: var(--primary-text);
 }
 
 #header {
-    background-color: black;
+    background-color: var(--accent-color);
     display: flex;
     font-size: small;
     justify-content: center;
@@ -12,7 +24,7 @@ body, html {
     padding: 10px;
     box-sizing: border-box;
     flex-wrap: wrap;
-    color: white;
+    color: var(--box-background);
     width: 100%;
     margin: 0;
 }
@@ -38,15 +50,15 @@ body, html {
 }
 
 #store-name {
-    background-color: black;
-    color: white;
+    background-color: var(--accent-color);
+    color: var(--box-background);
     padding: 15px 25px;
     font-size: 4rem;
     border-radius: 12px;
 }
 
 #search-bar {
-    background-color: black;
+    background-color: var(--accent-color);
     border-radius: 8px;
     padding: 8px 12px;
     width: 250px;
@@ -58,13 +70,13 @@ body, html {
 #search-bar input {
     background: transparent;
     border: none;
-    color: white;
+    color: var(--box-background);
     outline: none;
     width: 100%;
 }
 
 #search-bar input::placeholder {
-    color: #ccc;
+    color: var(--hover-color);
 }
 
 #icons {
@@ -78,7 +90,7 @@ body, html {
     flex-direction: column;
     align-items: center;
     text-decoration: none;
-    color: black;
+    color: var(--primary-text);
     font-size: 14px;
 }
 
@@ -90,7 +102,7 @@ body, html {
 #main-nav {
     display: flex;
     justify-content: center; 
-    background-color: white; 
+    background-color: var(--box-background); 
     padding: 10px 0;
     margin-top: 10px;
 }
@@ -109,7 +121,7 @@ body, html {
 
 #main-nav ul li a {
     text-decoration: none;
-    color: black;
+    color: var(--primary-text);
     font-size: 16px;
     font-weight: bold;
     padding: 8px 15px;
@@ -117,7 +129,7 @@ body, html {
 }
 
 #main-nav ul li a:hover {
-    color: darkgray;
+    color: var(--hover-color);
 }
 
 .carousel-img {
@@ -136,8 +148,8 @@ body, html {
 
 #footer {
     margin-bottom: 0px;
-    background: black;
-    color: white;
+    background: var(--accent-color);
+    color: var(--box-background);
     text-align: center;
     height: 100%;
     padding: 1px;
@@ -150,13 +162,17 @@ body, html {
 }
 
 .section-title {
-    background-color: black;
-    color: white;
+    background-color: var(--accent-color);
+    color: var(--box-background);
     font-size: 1.8rem;
     font-weight: bold;
     text-align: center;
     padding: 15px;
     border-radius: 12px;
+}
+
+.page-title {
+    margin: 20px;
 }
 
 .col1of2 {
@@ -165,22 +181,31 @@ body, html {
     padding: 15px;
 }
 
+.col1of3 {
+    text-align: center;
+}
+
 .best-new-looks-text {
-    background: lightgray;
+    background: var(--box-background);
     padding: 20px; 
     border-radius: 15px; 
-    border: 1px solid black;
+    border: 1px solid var(--border-color);
     font-size: large;
 }
 
 .container-text {
-    background: lightgray;
+    background: var(--box-background);
     padding: 5px; 
     border-radius: 40px; 
-    border: 1px solid black;
+    border: 1px solid var(--border-color);
     font-size: medium;
     margin-bottom: 15px;
 }
+
+.item-images {
+    margin: auto;
+}
+
 
 @media (min-width: 900px) {
     .flex-container {
@@ -189,5 +214,17 @@ body, html {
 
     .col1of2 {
         flex: 1;
+    }
+
+    .col1of3:nth-child(1) {
+        flex: 0 0 15%;
+    }
+    
+    .col1of3:nth-child(2) {
+        flex: 0 0 60%;
+    }
+    
+    .col1of3:nth-child(3) {
+        flex: 0 0 25%;
     }
 }
