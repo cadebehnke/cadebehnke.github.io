@@ -1,0 +1,79 @@
+
+:root {
+    --background-color: #f3e5d0;
+    --primary-color: #5a3e2b;
+    --secondary-color: #c38e70;
+    --button-color: #8b5e3b;
+    --button-hover: #a37551;
+    --text-color: #3e2b1e;
+}
+
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+h1 {
+    color: var(--primary-color);
+}
+
+h2 {
+    color: var(--secondary-color);
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    background-color: var(--button-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: var(--button-hover);
+}
+
+#stairs-container {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    margin: 20px auto;
+}
+
+.stair-rail {
+    width: 10px;
+    height: 250px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+}
+
+.stair-rail.left {
+    left: 20px;
+}
+
+.stair-rail.right {
+    right: 20px;
+}
+
+.stair-step {
+    width: 150px;
+    height: 8px;
+    background-color: black;
+    position: absolute;
+    left: 20px;
+}
+
+#stick-figure {
+    position: absolute;
+    bottom: 0;
+    left: 25px;
+    width: 50px;
+    transition: all 0.3s ease-in-out;
+}
