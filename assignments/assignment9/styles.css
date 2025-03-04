@@ -1,0 +1,97 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #4a6fa5;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #d85a5a;
+}
+
+.pizza-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f9e79f;
+}
+
+.pizza-box {
+    width: 200px;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.pizza-box:hover {
+    transform: scale(1.05);
+}
+
+.pizza-box img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.pizza-name {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #b52b2b;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.modal-content {
+    padding: 20px;
+    background-color: #ff7f2a;
+    color: #b52b2b;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: auto;
+    text-align: left;
+    position: relative;
+}
+
+.modal-image {
+    width: 100px;
+    display: block;
+    margin: 10px auto;
+    transform: rotate(0deg);
+    transition: transform 0.5s;
+}
+
+.w3-modal {
+    display: none;
+}
+
+#pizza-modal.show {
+    display: block;
+}
+
+.show .modal-image {
+    transform: rotate(360deg);
+}
+
+.pizza-description {
+    font-size: 14px;
+    color: #555;
+    margin: auto;
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
