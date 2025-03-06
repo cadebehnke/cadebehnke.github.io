@@ -1,5 +1,5 @@
-document.addEventListener("DOMContentLoaded", function () {
-
+document.addEventListener("DOMContentLoaded", function () { 
+//
     class Pizza {
         constructor(name, ingredients, sauce, cheese, price, image, description) {
             this.name = name;
@@ -19,7 +19,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div class="pizza-name">${this.name}</div>
             `;
 
-            // Open modal when clicking image or name
             section.addEventListener("click", () => this.showModal());
 
             return section;
@@ -32,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
             document.getElementById("modal-cheese").textContent = this.cheese;
             document.getElementById("modal-price").textContent = this.price;
             document.getElementById("modal-image").src = this.image;
-            document.getElementById("modal-description").textContent = this.description; // Fixed here
+            document.getElementById("modal-description").textContent = this.description;
             
             let modal = document.getElementById("pizza-modal");
             modal.classList.add("show");
