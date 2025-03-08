@@ -1,66 +1,66 @@
 [
   {
-    "_id": 1,
-    "name": "Men's Jeans",
-    "price": "$39.99",
-    "description": "Stylish denim jeans for casual wear.",
-    "img_name": "images/m-jeans.png",
-    "category": "Men"
+      "_id": 1,
+      "img_name": "images/jeans.png",
+      "name": "Women's Jeans",
+      "price": "$39.99",
+      "description": "Stylish and comfortable jeans for everyday wear.",
+      "category": "Women"
   },
   {
-    "_id": 2,
-    "name": "Men's Tees",
-    "price": "$24.99",
-    "description": "Comfortable and stylish t-shirts for everyday wear.",
-    "img_name": "images/m-tee.png",
-    "category": "Men"
+      "_id": 2,
+      "img_name": "images/outerwear.png",
+      "name": "Women's Outerwear",
+      "price": "$59.99",
+      "description": "Warm and trendy outerwear to keep you stylish in any season.",
+      "category": "Women"
   },
   {
-    "_id": 3,
-    "name": "Women's Sweater",
-    "price": "$29.99",
-    "description": "A cozy sweater for the winter season.",
-    "img_name": "images/sweater.png",
-    "category": "Women"
+      "_id": 3,
+      "img_name": "images/dress.png",
+      "name": "Elegant Dress",
+      "price": "$49.99",
+      "description": "Perfect for special occasions, this dress combines elegance and comfort.",
+      "category": "Women"
   },
   {
-    "_id": 4,
-    "name": "Women's Dress",
-    "price": "$49.99",
-    "description": "Elegant and chic dress for special occasions.",
-    "img_name": "images/dress.png",
-    "category": "Women"
+      "_id": 4,
+      "img_name": "images/sweater.png",
+      "name": "Cozy Sweater",
+      "price": "$29.99",
+      "description": "Stay warm and fashionable with our soft-knit sweaters.",
+      "category": "Women"
   },
   {
-    "_id": 5,
-    "name": "Brita Water Filter",
-    "price": "$14.99",
-    "description": "6-cup water pitcher dispenser with a standard filter.",
-    "img_name": "images/brita.png",
-    "category": "Sale"
+      "_id": 5,
+      "img_name": "images/pants.png",
+      "name": "Women's Pants",
+      "price": "$34.99",
+      "description": "Comfortable and versatile pants for any occasion.",
+      "category": "Women"
   },
   {
-    "_id": 6,
-    "name": "Gourmia Air Fryer",
-    "price": "$24.99",
-    "description": "3qt Digital Air Fryer with 8 presets & guided cooking.",
-    "img_name": "images/airfryer.png",
-    "category": "Sale"
+      "_id": 6,
+      "img_name": "images/pajamas.png",
+      "name": "Comfy Pajamas",
+      "price": "$24.99",
+      "description": "Relax in style with these soft and cozy pajamas.",
+      "category": "Women"
   },
   {
-    "_id": 7,
-    "name": "Blogilates Athletic Backpack",
-    "price": "$17.99",
-    "description": "Durable and stylish athletic backpack for your active lifestyle.",
-    "img_name": "images/backpack.png",
-    "category": "Sale"
+      "_id": 7,
+      "img_name": "images/heels.png",
+      "name": "Chic Heels",
+      "price": "$44.99",
+      "description": "Elegant heels to elevate any outfit.",
+      "category": "Women"
   },
   {
-    "_id": 8,
-    "name": "38\" Vintage Storage Sideboard",
-    "price": "$113.99",
-    "description": "A stylish and spacious dresser with ample storage.",
-    "img_name": "images/table.png",
-    "category": "Sale"
+      "_id": 8,
+      "img_name": "images/handbag.png",
+      "name": "Leather Handbag",
+      "price": "$79.99",
+      "description": "A stylish and spacious handbag for all your essentials.",
+      "category": "Women"
   }
 ]

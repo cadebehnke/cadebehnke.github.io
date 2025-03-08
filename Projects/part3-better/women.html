@@ -1,56 +1,99 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <link rel="stylesheet" href="styles.css">
-    <title>Behnke's Goods - Women</title>
-    <script defer src="script.js"></script>
-</head>
-<body>
-    <header id="header">
-        40% OFF THE WHOLE STORE FOR VALENTINES DAY!
-    </header>
-    <div id="top-bar">
-        <div id="logo-container">
-            <img src="images/Behnke's-Goods.png" alt="Behnke's Goods Logo" id="store-logo">
-            <div id="store-name">Behnke's Goods</div>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Behnke's Goods - Home</title>
+    </head>
+    <body>
+        <header id="header">
+            40% OFF THE WHOLE STORE FOR VALENTINES DAY!
+        </header>
+        <div id="top-bar">
+            <div id="logo-container">
+                <img src="images/Behnke's-Goods.png" alt="Behnke's Goods Logo" id="store-logo">
+                <div id="store-name">Behnke's Goods</div>
+            </div>
+            
+            <div id="search-bar">
+                <input type="text" placeholder="Search">
+            </div>
+    
+            <div id="icons">
+                <a href="#" class="icon">
+                    <img src="user-icon.png" alt="Sign In">
+                    <span>Sign In</span>
+                </a>
+                <a href="#" class="icon">
+                    <img src="cart-icon.png" alt="Cart">
+                    <span>Cart</span>
+                </a>
+            </div>
         </div>
-        
-        <div id="search-bar">
-            <input type="text" placeholder="Search">
+        <div id="content">
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="sale.html">Sale</a></li>
+                    <li><a href="men.html">Men</a></li>
+                    <li><a href="women.html">Women</a></li>
+                </ul>
+            </nav>
+            <hr>
+
+    <main>
+        <h1 class="section-title page-title">Women</h1>
+        <h1>Shop by Category</h1>
+        <div class="flex-container">
+            <section class="col1of2">
+                <img src="images/jeans.png">
+                <p>Jeans</p>
+            </section>
+            <section class="col1of2">
+                <img src="images/outerwear.png">
+                <p>Outerware</p>
+            </section>
+            <section class="col1of2">
+                <img src="images/dress.png">
+                <p>Dresses</p>
+            </section>
+            <section class="col1of2">
+                <img src="images/sweater.png">
+                <p>Sweaters</p>
+            </section>
+            <section class="col1of2">
+                <img src="images/pants.png">
+                <p>Pants</p>
+            </section>
+            <section class="col1of2">
+                <img src="images/pajamas.png">
+                <p>Pajamas</p>
+            </section>
         </div>
+        <!-- This section will now be dynamically loaded using JSON -->
+        <div id="women-products" class="products-container"></div>
 
-        <div id="icons">
-            <a href="#" class="icon">
-                <img src="user-icon.png" alt="Sign In">
-                <span>Sign In</span>
-            </a>
-            <a href="#" class="icon">
-                <img src="cart-icon.png" alt="Cart">
-                <span>Cart</span>
-            </a>
+        <div class="flex-container">
+            <section class="col1of2">
+                <section class="container-text">
+                    <h3>Ethically Sourced</h3>
+                    <p>We take pride in ethically sourcing all our clothing, ensuring that every step of the process supports fair wages, safe working conditions, and sustainable materials. Our fabrics come from responsible sources, including organic cotton and recycled materials, reducing our environmental impact while maintaining high quality. We work closely with manufacturers who share our values, ensuring that every worker is treated with dignity and respect. When you shop with us, you’re choosing fashion that not only looks good but also does good for people and the planet.</p>
+                    <h3>Giving Back</h3>
+                    <p>Beyond our commitment to ethical fashion, we are dedicated to giving back to the community through charitable initiatives and local partnerships. A portion of our profits goes toward programs that provide clothing, education, and essential resources to underserved communities. We also collaborate with local organizations to support job training and mentorship opportunities, helping individuals build a better future. By shopping with us, you’re not just making a purchase—you’re contributing to a movement that uplifts others and creates lasting change.</p>
+                </section>
+            </section>
+            <section class="col1of2">
+                <section class="container-text">
+                    <p><b>User: Olivia Martinez - </b>I am absolutely in love with the quality of this clothing! The fabric is so soft yet feels incredibly durable, and the stitching is flawless. Even after several washes, the colors stay bright, and the fit is just as perfect as the first wear!</p>
+                </section>
+                <section class="container-text">
+                    <p><b>User: Emma Reynolds - </b>This is hands down the best clothing purchase I’ve made in a long time! The material is lightweight and breathable, making it so comfortable to wear all day. I’ve gotten so many compliments, and I can already tell this piece will be a staple in my wardrobe for years!</p>
+                </section>
+                <section>
+                    <h3>Five Star Reviews!</h3><img src="images/stars.png">
+                </section>
+            </section>
         </div>
-    </div>
-    <div id="content">
-        <nav id="main-nav">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="sale.html">Sale</a></li>
-                <li><a href="men.html">Men</a></li>
-                <li><a href="women.html">Women</a></li>
-            </ul>
-        </nav>
-        <hr>
-
-        <main>
-            <h1 class="section-title page-title">Women</h1>
-            <h1>Shop by Category</h1>
-
-            <!-- JSON dynamically loads items here -->
-            <div id="women-products" class="products-container"></div>
-        </main>
-    </div>
-
     <footer id="footer">
         <p>&copy; Behnke's Goods - Cade Behnke</p>
     </footer>
