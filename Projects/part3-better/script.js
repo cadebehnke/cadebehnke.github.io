@@ -1,5 +1,5 @@
 const getProducts = async () => {
-    const url = "https://raw.githubusercontent.com/cadebehnke/cadebehnke.github.io/main/Projects/part3-better/json/items.json";
+    const url = "https://github.com/cadebehnke/cadebehnke.github.io/blob/main/Projects/part3-better/json/items.json";
 
     try {
         const response = await fetch(url);
