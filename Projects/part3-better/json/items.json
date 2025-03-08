@@ -1,0 +1,59 @@
+[
+    {
+      "_id": 1,
+      "name": "Men's Jeans",
+      "price": "$39.99",
+      "description": "Stylish denim jeans for casual wear.",
+      "img_name": "images/m-jeans.png"
+    },
+    {
+      "_id": 2,
+      "name": "Women's Sweater",
+      "price": "$29.99",
+      "description": "A cozy sweater for the winter season.",
+      "img_name": "images/sweater.png"
+    },
+    {
+      "_id": 3,
+      "name": "Nike Running Shoes",
+      "price": "$49.99",
+      "description": "Lightweight and comfortable running shoes.",
+      "img_name": "images/nike-shoes.png"
+    },
+    {
+      "_id": 4,
+      "name": "Handbag",
+      "price": "$19.99",
+      "description": "A versatile handbag for everyday use.",
+      "img_name": "images/handbag.png"
+    },
+    {
+      "_id": 5,
+      "name": "Bluetooth Speaker",
+      "price": "$59.99",
+      "description": "Portable speaker with excellent sound quality.",
+      "img_name": "images/speaker.png"
+    },
+    {
+      "_id": 6,
+      "name": "Watch",
+      "price": "$99.99",
+      "description": "Elegant wristwatch for formal occasions.",
+      "img_name": "images/watch.png"
+    },
+    {
+      "_id": 7,
+      "name": "Tote Bag",
+      "price": "$24.99",
+      "description": "Stylish tote bag for everyday errands.",
+      "img_name": "images/tote-bag.png"
+    },
+    {
+      "_id": 8,
+      "name": "Sunglasses",
+      "price": "$15.99",
+      "description": "Trendy sunglasses to protect your eyes from the sun.",
+      "img_name": "images/sunglasses.png"
+    }
+  ]
+  
