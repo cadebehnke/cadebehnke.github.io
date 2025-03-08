@@ -1,5 +1,5 @@
 const getProducts = async () => {
-    const url = "https://github.com/cadebehnke/cadebehnke.github.io/blob/main/Projects/part3-better/json/items.json";
+    const url = "https://raw.githubusercontent.com/cadebehnke/cadebehnke.github.io/refs/heads/main/Projects/part3-better/json/items.json";
 
     try {
         const response = await fetch(url);
@@ -13,12 +13,10 @@ const showWomenProducts = async () => {
     let products = await getProducts();
     let womenSection = document.getElementById("women-products");
 
-    if (!womenSection) return; // Ensure this script only runs on the women page
+    if (!womenSection) return;
 
-    // Filter only the women’s products
     let womenProducts = products.filter(product => product.category === "Women");
 
-    // Make sure we have exactly 8 items (if fewer, duplicate existing ones)
     while (womenProducts.length < 8) {
         womenProducts = [...womenProducts, ...womenProducts].slice(0, 8);
     }
