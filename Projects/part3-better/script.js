@@ -70,3 +70,28 @@ const getStars = (rating) => {
 };
 
 document.addEventListener("DOMContentLoaded", showWomenProducts);
+
+const contactForm = document.getElementById('contactForm');
+const responseMessage = document.getElementById('responseMessage');
+
+contactForm.addEventListener('submit', function (event) {
+    event.preventDefault();
+
+    const isSuccess = Math.random() > 0.5; 
+
+    if (isSuccess) {
+        responseMessage.textContent = 'Message sent successfully!';
+        responseMessage.classList.remove('error');
+        responseMessage.classList.add('success');
+        responseMessage.style.display = 'block';
+        
+        contactForm.reset();
+    } else {
+        responseMessage.textContent = 'Error: Failed to send the message. Please try again later.';
+        responseMessage.classList.remove('success');
+        responseMessage.classList.add('error');
+        responseMessage.style.display = 'block';
+    }
+});
+
+
